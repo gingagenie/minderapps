@@ -1,4 +1,4 @@
-import { Wrench, FileText, DollarSign, MapPin, Mail } from "lucide-react";
+import { Wrench, FileText, DollarSign, Mail } from "lucide-react";
 
 const NAVY = "#1e293b";
 const ASSETMINDER_URL = "https://assetminder-frontend.onrender.com";
@@ -141,41 +141,12 @@ function AboutSection() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-3xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-slate-900">
-          Built by tradespeople, for tradespeople
-        </h2>
-        <p className="mt-4 text-lg text-slate-500 leading-relaxed">
-          We use Jobber every day. We built the tools we wished existed.
+        <h2 className="text-3xl font-bold text-slate-900">Our Mission</h2>
+        <p className="mt-6 text-lg text-slate-600 leading-relaxed">
+          MinderApps is a platform that empowers small businesses to harness the
+          tools that big businesses use. By doing this we aim to lift users up
+          with us as we grow. Helping people to help people is our mantra.
         </p>
-
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <div className="bg-slate-50 rounded-xl border border-slate-200 p-6 text-left">
-            <div
-              className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm mb-4"
-              style={{ backgroundColor: NAVY }}
-            >
-              KR
-            </div>
-            <p className="font-semibold text-slate-900">Keith Richmond</p>
-            <div className="flex items-center gap-1.5 mt-1 text-sm text-slate-500">
-              <MapPin size={13} className="shrink-0" />
-              <span>Fix My Forklift — Mornington Peninsula, Victoria</span>
-            </div>
-          </div>
-
-          <div className="bg-slate-50 rounded-xl border border-slate-200 p-6 text-left">
-            <div
-              className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm mb-4"
-              style={{ backgroundColor: NAVY }}
-            >
-              P
-            </div>
-            <p className="font-semibold text-slate-900">Paul</p>
-            <div className="flex items-center gap-1.5 mt-1 text-sm text-slate-500">
-              <span className="italic text-slate-400">Details coming soon</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
