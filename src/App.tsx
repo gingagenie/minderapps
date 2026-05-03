@@ -12,7 +12,7 @@ function Header() {
             Minder<span className="text-slate-300">Apps</span>
           </span>
           <p className="text-slate-400 text-sm mt-0.5">
-            Built for Jobber users. Tools that fill the gaps.
+            Simple tools. Real impact. Built for business.
           </p>
         </div>
       </div>
@@ -25,11 +25,11 @@ function Hero() {
     <section style={{ backgroundColor: NAVY }} className="pb-20 pt-16">
       <div className="max-w-3xl mx-auto px-6 text-center">
         <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-          The tools Jobber users have been waiting for
+          The tools small businesses have been waiting for
         </h1>
         <p className="mt-5 text-lg text-slate-300 leading-relaxed">
-          Built by tradespeople, for tradespeople. Simple, focused apps that
-          solve real problems — right inside your Jobber workflow.
+          Built by real business owners, for real business owners. Simple,
+          focused apps that solve real problems.
         </p>
       </div>
     </section>
@@ -102,7 +102,7 @@ function AppsSection() {
     <section className="py-20 bg-slate-50">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-slate-900">Our Apps</h2>
+          <h2 className="text-3xl font-bold text-slate-900">Jobber Compatible Apps</h2>
           <p className="mt-3 text-slate-500 text-base">
             Each app solves one problem, and solves it well.
           </p>
