@@ -165,7 +165,7 @@ function Footer() {
             support@minderapps.io
           </a>
         </div>
-        <p className="text-slate-500 text-sm">© 2026 MindерApps</p>
+        <p className="text-slate-500 text-sm">© 2026 MinderApps</p>
       </div>
     </footer>
   );
