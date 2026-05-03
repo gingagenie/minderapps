@@ -104,7 +104,7 @@ function AppsSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-slate-900">Jobber Compatible Apps</h2>
           <p className="mt-3 text-slate-500 text-base">
-            Each app solves one problem, and solves it well.
+            Each app solves a unique problem to save you time.
           </p>
         </div>
 
